@@ -1,14 +1,10 @@
 import unittest
 
-def Addition(x,y):
+def Addition(x,y,z):
     return x+y
-def Addition1(x,y,z):
     return x+y+z
-def Subratction(x,y):
     return x-y
-def Multiplication(x,y):
     return x*y
-def Division(x,y):
     return x/y
 
 class Mathsoperationsapp(unittest.TestCase):

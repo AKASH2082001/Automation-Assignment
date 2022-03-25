@@ -30,7 +30,7 @@ class testcasesapp(unittest.TestCase):
 
     def test_case_evenorodd1(self):
         result = EvenorOdd(15)
-        self.assertEqual("odd", result)
+        self.assertNotEqual("odd", result)
 
     def test_case_divisibleby7_1(self):
         result = Divisibleby7(14)
